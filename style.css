@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+}
+#gdisplay{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #1A1A2E; */
+    background-color: #ffffff;
+}
+.card{
+    background-color: #16213E;
+    margin: 10px;
+    width: 365px;
+    /* border:5px solid #E94560; */
+    border:5px solid #1A1A2E;
+    border-radius: 8px;
+    /* height: 20%; */
+    /* text-justify: justify; */
+}
+.card-body{
+    /* background-color: antiquewhite; */
+    margin:10px;
+}
+
+.card h5 a{
+    font-size: 1.6em;
+    color: #E94560;
+    font: 800;
+    text-decoration: none;
+
+}
+.card-text{
+    color: #fdfdfd;
+    font-size: 1.1em;
+}
+.card span{
+    color: #e7e7e7;
+}
+.card-rd{
+    margin-top: 8px;
+    color: #bababb;
+}
+.card-platform{
+    color: #bababb;
+    display: block;
+}
+#btn{
+    position: relative;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    background-color: #E94560;
+    padding:10px;
+    color: #fdfdfd;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+#btn:hover{
+    background-color: #fdfdfd;
+    color: #E94560;
+    font-weight: 600;
+}
+#loading{background: #E94560;
+    color: #fdfdfd;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* navbar */
+.nav{
+    background-color: #1A1A2E;
+    padding:5px;
+    
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 10%;
+}
+.links span{
+    color: yellowgreen;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    margin-right:15px;
+}
+.logo a{
+    text-decoration: none;
+    color: transparent;
+}
+.logo img{
+    /* background-color: #E94560; */
+    height: 100px;
+    width: auto;
+}
+.links a:hover{
+    color: #E94560;
+}    
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    color: #E94560;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #16213E;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+  }
+  .show {display: block;}
+  .dropdown a:hover {background-color: #ddd;}
