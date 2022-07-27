@@ -147,3 +147,11 @@ body{
   }
   .show {display: block;}
   .dropdown a:hover {background-color: #ddd;}
+@media screen and (max-width:375px) {
+    .card{
+        width: 85%;
+    }
+    .card-img{
+        width: 100%;
+    }
+}
