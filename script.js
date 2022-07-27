@@ -44,7 +44,7 @@ const getGames = async () =>{
     // }
     data.reverse();
     data.forEach(gData => {
-        console.log(gData)
+//         console.log(gData)
         gdisplay.insertAdjacentHTML("afterbegin",`
         <div class="card">
             <img class="card-img" src="${gData.thumbnail}" alt="thumbnail-img">
